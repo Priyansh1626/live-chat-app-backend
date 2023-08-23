@@ -11,7 +11,7 @@ const cors = require("cors");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://live-chat-app-frontend.vercel.app",
     credentials: true,
 }));
 
