@@ -11,7 +11,7 @@ const sendMessage = asyncHandler(async (req, res) => {
         console.log("Invalid data passed in request")
         return res.status(400)
     }
-
+    
     let newMessage = {
         sender: req.user._id,
         content: content,
